@@ -148,11 +148,6 @@
     <Content Include="Abp\Framework\styles\utils\ie10fix.css" />
   </ItemGroup>
   <ItemGroup>
-    <TypeScriptCompile Include="Abp\Framework\scripts\abp.d.ts" />
-    <TypeScriptCompile Include="Abp\Framework\scripts\libs\abp.jquery.d.ts" />
-    <TypeScriptCompile Include="Abp\Framework\scripts\libs\abp.signalr.d.ts" />
-  </ItemGroup>
-  <ItemGroup>
     <Folder Include="Controllers\" />
     <Folder Include="Views\" />
   </ItemGroup>
