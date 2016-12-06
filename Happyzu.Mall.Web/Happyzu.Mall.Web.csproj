@@ -1172,6 +1172,7 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Models\" />
+    <Folder Include="Plugins\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Happyzu.Mall.Application\Happyzu.Mall.Application.csproj">
@@ -1190,11 +1191,6 @@
       <Project>{5eb52d3d-09fd-463a-b02a-8d9856bd3724}</Project>
       <Name>Happyzu.Mall.WebApi</Name>
     </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <TypeScriptCompile Include="Abp\Framework\scripts\abp.d.ts" />
-    <TypeScriptCompile Include="Abp\Framework\scripts\libs\abp.jquery.d.ts" />
-    <TypeScriptCompile Include="Abp\Framework\scripts\libs\abp.signalr.d.ts" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />

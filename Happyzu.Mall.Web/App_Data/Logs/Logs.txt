@@ -42,3 +42,416 @@ DEBUG 2016-12-01 10:11:50,237 [1    ] Abp.Localization.LocalizationManager     -
 DEBUG 2016-12-01 10:11:50,394 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
 WARN  2016-12-01 10:11:52,244 [7    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
 WARN  2016-12-01 10:11:52,267 [7    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+DEBUG 2016-12-06 15:12:24,330 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2016-12-06 15:12:24,352 [1    ] Abp.Modules.AbpModuleManager             - Found 11 ABP modules in total.
+DEBUG 2016-12-06 15:12:24,355 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Happyzu.Mall.Web.MallWebModule, Happyzu.Mall.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-12-06 15:12:24,357 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=1.1.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-12-06 15:12:24,357 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=1.1.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-12-06 15:12:24,357 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=1.1.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-12-06 15:12:24,357 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=1.1.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-12-06 15:12:24,358 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Happyzu.Mall.MallDataModule, Happyzu.Mall.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-12-06 15:12:24,358 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=1.1.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-12-06 15:12:24,358 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Happyzu.Mall.MallCoreModule, Happyzu.Mall.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-12-06 15:12:24,358 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Happyzu.Mall.MallApplicationModule, Happyzu.Mall.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-12-06 15:12:24,358 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Happyzu.Mall.MallWebApiModule, Happyzu.Mall.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-12-06 15:12:24,358 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=1.1.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-12-06 15:12:24,361 [1    ] Abp.Modules.AbpModuleManager             - 11 modules loaded.
+DEBUG 2016-12-06 15:12:24,604 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: Happyzu.Mall.EntityFramework.MallDbContext, Happyzu.Mall.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-12-06 15:12:25,318 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2016-12-06 15:12:25,327 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2016-12-06 15:12:25,361 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2016-12-06 15:12:25,374 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Mall
+DEBUG 2016-12-06 15:12:25,510 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+WARN  2016-12-06 15:12:25,653 [6    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2016-12-06 15:12:25,674 [6    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+DEBUG 2016-12-06 15:14:40,509 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2016-12-06 15:14:40,521 [1    ] Abp.Modules.AbpModuleManager             - Found 11 ABP modules in total.
+DEBUG 2016-12-06 15:14:40,525 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Happyzu.Mall.Web.MallWebModule, Happyzu.Mall.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-12-06 15:14:40,526 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=1.1.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-12-06 15:14:40,526 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=1.1.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-12-06 15:14:40,526 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=1.1.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-12-06 15:14:40,527 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=1.1.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-12-06 15:14:40,527 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Happyzu.Mall.MallDataModule, Happyzu.Mall.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-12-06 15:14:40,527 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=1.1.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-12-06 15:14:40,527 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Happyzu.Mall.MallCoreModule, Happyzu.Mall.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-12-06 15:14:40,527 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Happyzu.Mall.MallApplicationModule, Happyzu.Mall.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-12-06 15:14:40,527 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Happyzu.Mall.MallWebApiModule, Happyzu.Mall.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-12-06 15:14:40,528 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=1.1.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-12-06 15:14:40,530 [1    ] Abp.Modules.AbpModuleManager             - 11 modules loaded.
+DEBUG 2016-12-06 15:14:40,757 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: Happyzu.Mall.EntityFramework.MallDbContext, Happyzu.Mall.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-12-06 15:14:41,530 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2016-12-06 15:14:41,599 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2016-12-06 15:14:41,600 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2016-12-06 15:14:41,601 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Mall
+DEBUG 2016-12-06 15:14:41,753 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+WARN  2016-12-06 15:14:45,485 [6    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2016-12-06 15:14:45,511 [6    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+DEBUG 2016-12-06 15:15:39,828 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2016-12-06 15:15:39,839 [1    ] Abp.Modules.AbpModuleManager             - Found 11 ABP modules in total.
+DEBUG 2016-12-06 15:15:39,843 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Happyzu.Mall.Web.MallWebModule, Happyzu.Mall.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-12-06 15:15:39,845 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=1.1.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-12-06 15:15:39,845 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=1.1.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-12-06 15:15:39,845 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=1.1.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-12-06 15:15:39,845 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=1.1.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-12-06 15:15:39,845 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Happyzu.Mall.MallDataModule, Happyzu.Mall.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-12-06 15:15:39,845 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=1.1.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-12-06 15:15:39,846 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Happyzu.Mall.MallCoreModule, Happyzu.Mall.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-12-06 15:15:39,846 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Happyzu.Mall.MallApplicationModule, Happyzu.Mall.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-12-06 15:15:39,846 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Happyzu.Mall.MallWebApiModule, Happyzu.Mall.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-12-06 15:15:39,846 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=1.1.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-12-06 15:15:39,848 [1    ] Abp.Modules.AbpModuleManager             - 11 modules loaded.
+DEBUG 2016-12-06 15:15:40,096 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: Happyzu.Mall.EntityFramework.MallDbContext, Happyzu.Mall.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-12-06 15:15:40,667 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2016-12-06 15:15:40,704 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2016-12-06 15:15:40,705 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2016-12-06 15:15:40,707 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Mall
+DEBUG 2016-12-06 15:15:40,840 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+WARN  2016-12-06 15:15:43,178 [7    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2016-12-06 15:15:43,200 [7    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+DEBUG 2016-12-06 15:20:03,199 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2016-12-06 15:20:03,211 [1    ] Abp.Modules.AbpModuleManager             - Found 11 ABP modules in total.
+DEBUG 2016-12-06 15:20:03,215 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Happyzu.Mall.Web.MallWebModule, Happyzu.Mall.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-12-06 15:20:03,216 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=1.1.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-12-06 15:20:03,218 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=1.1.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-12-06 15:20:03,218 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=1.1.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-12-06 15:20:03,218 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=1.1.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-12-06 15:20:03,218 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Happyzu.Mall.MallDataModule, Happyzu.Mall.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-12-06 15:20:03,219 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=1.1.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-12-06 15:20:03,219 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Happyzu.Mall.MallCoreModule, Happyzu.Mall.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-12-06 15:20:03,220 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Happyzu.Mall.MallApplicationModule, Happyzu.Mall.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-12-06 15:20:03,220 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Happyzu.Mall.MallWebApiModule, Happyzu.Mall.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-12-06 15:20:03,220 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=1.1.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-12-06 15:20:03,223 [1    ] Abp.Modules.AbpModuleManager             - 11 modules loaded.
+DEBUG 2016-12-06 15:20:03,460 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: Happyzu.Mall.EntityFramework.MallDbContext, Happyzu.Mall.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-12-06 15:20:04,072 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2016-12-06 15:20:04,079 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2016-12-06 15:20:04,091 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2016-12-06 15:20:04,093 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Mall
+DEBUG 2016-12-06 15:20:04,230 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+WARN  2016-12-06 15:20:06,516 [8    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2016-12-06 15:20:06,536 [8    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+DEBUG 2016-12-06 15:41:13,892 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2016-12-06 15:41:13,903 [1    ] Abp.Modules.AbpModuleManager             - Found 11 ABP modules in total.
+DEBUG 2016-12-06 15:41:13,907 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Happyzu.Mall.Web.MallWebModule, Happyzu.Mall.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-12-06 15:41:13,908 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=1.1.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-12-06 15:41:13,909 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=1.1.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-12-06 15:41:13,909 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=1.1.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-12-06 15:41:13,909 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=1.1.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-12-06 15:41:13,909 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Happyzu.Mall.MallDataModule, Happyzu.Mall.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-12-06 15:41:13,909 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=1.1.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-12-06 15:41:13,909 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Happyzu.Mall.MallCoreModule, Happyzu.Mall.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-12-06 15:41:13,909 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Happyzu.Mall.MallApplicationModule, Happyzu.Mall.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-12-06 15:41:13,910 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Happyzu.Mall.MallWebApiModule, Happyzu.Mall.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-12-06 15:41:13,910 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=1.1.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-12-06 15:41:13,912 [1    ] Abp.Modules.AbpModuleManager             - 11 modules loaded.
+DEBUG 2016-12-06 15:41:14,138 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: Happyzu.Mall.EntityFramework.MallDbContext, Happyzu.Mall.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-12-06 15:41:47,200 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2016-12-06 15:41:47,216 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2016-12-06 15:41:47,216 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2016-12-06 15:41:47,218 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Mall
+DEBUG 2016-12-06 15:41:47,352 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+WARN  2016-12-06 15:41:49,741 [7    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2016-12-06 15:41:49,761 [7    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+DEBUG 2016-12-06 15:43:17,869 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2016-12-06 15:43:17,949 [1    ] Abp.Modules.AbpModuleManager             - Found 11 ABP modules in total.
+DEBUG 2016-12-06 15:43:17,952 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Happyzu.Mall.Web.MallWebModule, Happyzu.Mall.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-12-06 15:43:17,954 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=1.1.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-12-06 15:43:17,954 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=1.1.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-12-06 15:43:17,954 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=1.1.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-12-06 15:43:17,955 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=1.1.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-12-06 15:43:17,955 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Happyzu.Mall.MallDataModule, Happyzu.Mall.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-12-06 15:43:17,955 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=1.1.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-12-06 15:43:17,955 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Happyzu.Mall.MallCoreModule, Happyzu.Mall.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-12-06 15:43:17,955 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Happyzu.Mall.MallApplicationModule, Happyzu.Mall.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-12-06 15:43:17,956 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Happyzu.Mall.MallWebApiModule, Happyzu.Mall.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-12-06 15:43:17,956 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=1.1.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-12-06 15:43:17,958 [1    ] Abp.Modules.AbpModuleManager             - 11 modules loaded.
+DEBUG 2016-12-06 15:43:18,304 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: Happyzu.Mall.EntityFramework.MallDbContext, Happyzu.Mall.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-12-06 15:43:20,429 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2016-12-06 15:43:20,437 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2016-12-06 15:43:20,438 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2016-12-06 15:43:20,440 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Mall
+DEBUG 2016-12-06 15:43:20,595 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+WARN  2016-12-06 15:43:22,475 [7    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2016-12-06 15:43:22,498 [7    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+DEBUG 2016-12-06 15:47:33,765 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2016-12-06 15:47:34,372 [1    ] Abp.Modules.AbpModuleManager             - Found 24 ABP modules in total.
+FATAL 2016-12-06 15:47:34,382 [1    ] Abp.AbpBootstrapper                      - Castle.MicroKernel.ComponentRegistrationException: Component Abp.EntityFramework.AbpEntityFrameworkModule could not be registered. There is already a component with that name. Did you want to modify the existing component instead? If not, make sure you specify a unique name.
+   在 Castle.MicroKernel.SubSystems.Naming.DefaultNamingSubSystem.Register(IHandler handler)
+   在 Castle.MicroKernel.DefaultKernel.AddCustomComponent(ComponentModel model)
+   在 Castle.MicroKernel.Registration.ComponentRegistration`1.Castle.MicroKernel.Registration.IRegistration.Register(IKernelInternal kernel)
+   在 Castle.MicroKernel.DefaultKernel.Register(IRegistration[] registrations)
+   在 Castle.Windsor.WindsorContainer.Register(IRegistration[] registrations)
+   在 Abp.Dependency.IocManager.Register(Type type, DependencyLifeStyle lifeStyle) 位置 D:\Halil\Github\aspnetboilerplate\src\Abp\Dependency\IocManager.cs:行号 107
+   在 Abp.Modules.AbpModuleManager.RegisterModules(ICollection`1 moduleTypes) 位置 D:\Halil\Github\aspnetboilerplate\src\Abp\Modules\AbpModuleManager.cs:行号 122
+   在 Abp.Modules.AbpModuleManager.LoadAllModules() 位置 D:\Halil\Github\aspnetboilerplate\src\Abp\Modules\AbpModuleManager.cs:行号 69
+   在 Abp.Modules.AbpModuleManager.Initialize(Type startupModule) 位置 D:\Halil\Github\aspnetboilerplate\src\Abp\Modules\AbpModuleManager.cs:行号 39
+   在 Abp.AbpBootstrapper.Initialize() 位置 D:\Halil\Github\aspnetboilerplate\src\Abp\AbpBootstrapper.cs:行号 131
+Castle.MicroKernel.ComponentRegistrationException: Component Abp.EntityFramework.AbpEntityFrameworkModule could not be registered. There is already a component with that name. Did you want to modify the existing component instead? If not, make sure you specify a unique name.
+   在 Castle.MicroKernel.SubSystems.Naming.DefaultNamingSubSystem.Register(IHandler handler)
+   在 Castle.MicroKernel.DefaultKernel.AddCustomComponent(ComponentModel model)
+   在 Castle.MicroKernel.Registration.ComponentRegistration`1.Castle.MicroKernel.Registration.IRegistration.Register(IKernelInternal kernel)
+   在 Castle.MicroKernel.DefaultKernel.Register(IRegistration[] registrations)
+   在 Castle.Windsor.WindsorContainer.Register(IRegistration[] registrations)
+   在 Abp.Dependency.IocManager.Register(Type type, DependencyLifeStyle lifeStyle) 位置 D:\Halil\Github\aspnetboilerplate\src\Abp\Dependency\IocManager.cs:行号 107
+   在 Abp.Modules.AbpModuleManager.RegisterModules(ICollection`1 moduleTypes) 位置 D:\Halil\Github\aspnetboilerplate\src\Abp\Modules\AbpModuleManager.cs:行号 122
+   在 Abp.Modules.AbpModuleManager.LoadAllModules() 位置 D:\Halil\Github\aspnetboilerplate\src\Abp\Modules\AbpModuleManager.cs:行号 69
+   在 Abp.Modules.AbpModuleManager.Initialize(Type startupModule) 位置 D:\Halil\Github\aspnetboilerplate\src\Abp\Modules\AbpModuleManager.cs:行号 39
+   在 Abp.AbpBootstrapper.Initialize() 位置 D:\Halil\Github\aspnetboilerplate\src\Abp\AbpBootstrapper.cs:行号 131
+DEBUG 2016-12-06 15:47:53,039 [6    ] Abp.Modules.AbpModuleManager             - Shutting down has been started
+DEBUG 2016-12-06 15:47:53,045 [6    ] Abp.Modules.AbpModuleManager             - Shutting down completed.
+DEBUG 2016-12-06 15:48:17,624 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2016-12-06 15:48:17,724 [1    ] Abp.Modules.AbpModuleManager             - Found 12 ABP modules in total.
+DEBUG 2016-12-06 15:48:17,728 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Happyzu.Mall.Web.MallWebModule, Happyzu.Mall.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-12-06 15:48:17,730 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=1.1.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-12-06 15:48:17,730 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=1.1.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-12-06 15:48:17,731 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=1.1.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-12-06 15:48:17,731 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=1.1.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-12-06 15:48:17,731 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Happyzu.Mall.MallDataModule, Happyzu.Mall.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-12-06 15:48:17,732 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=1.1.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-12-06 15:48:17,732 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Happyzu.Mall.MallCoreModule, Happyzu.Mall.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-12-06 15:48:17,732 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Happyzu.Mall.MallApplicationModule, Happyzu.Mall.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-12-06 15:48:17,732 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Happyzu.Mall.MallWebApiModule, Happyzu.Mall.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-12-06 15:48:17,732 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=1.1.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-12-06 15:48:17,733 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Happyzu.Mall.Web.Administrator.MallWebAdministratorModule, Happyzu.Mall.Web.Administrator, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-12-06 15:48:17,735 [1    ] Abp.Modules.AbpModuleManager             - 12 modules loaded.
+DEBUG 2016-12-06 15:48:18,105 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: Happyzu.Mall.EntityFramework.MallDbContext, Happyzu.Mall.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-12-06 15:48:24,583 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2016-12-06 15:48:24,590 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2016-12-06 15:48:24,599 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2016-12-06 15:48:24,600 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Mall
+DEBUG 2016-12-06 15:48:24,740 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+WARN  2016-12-06 15:48:27,098 [8    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2016-12-06 15:48:27,118 [8    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+DEBUG 2016-12-06 15:49:48,084 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2016-12-06 15:49:48,179 [1    ] Abp.Modules.AbpModuleManager             - Found 12 ABP modules in total.
+DEBUG 2016-12-06 15:49:48,184 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Happyzu.Mall.Web.MallWebModule, Happyzu.Mall.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-12-06 15:49:48,186 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=1.1.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-12-06 15:49:48,186 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=1.1.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-12-06 15:49:48,187 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=1.1.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-12-06 15:49:48,187 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=1.1.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-12-06 15:49:48,187 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Happyzu.Mall.MallDataModule, Happyzu.Mall.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-12-06 15:49:48,187 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=1.1.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-12-06 15:49:48,187 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Happyzu.Mall.MallCoreModule, Happyzu.Mall.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-12-06 15:49:48,187 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Happyzu.Mall.MallApplicationModule, Happyzu.Mall.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-12-06 15:49:48,188 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Happyzu.Mall.MallWebApiModule, Happyzu.Mall.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-12-06 15:49:48,188 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=1.1.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-12-06 15:49:48,188 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Happyzu.Mall.Web.Administrator.MallWebAdministratorModule, Happyzu.Mall.Web.Administrator, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-12-06 15:49:48,190 [1    ] Abp.Modules.AbpModuleManager             - 12 modules loaded.
+DEBUG 2016-12-06 15:49:48,538 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: Happyzu.Mall.EntityFramework.MallDbContext, Happyzu.Mall.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-12-06 15:50:39,020 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2016-12-06 15:50:39,026 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2016-12-06 15:50:39,035 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2016-12-06 15:50:39,037 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Mall
+DEBUG 2016-12-06 15:50:39,188 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+WARN  2016-12-06 15:50:40,949 [5    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2016-12-06 15:50:40,972 [5    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+DEBUG 2016-12-06 16:03:14,416 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2016-12-06 16:03:14,503 [1    ] Abp.Modules.AbpModuleManager             - Found 12 ABP modules in total.
+DEBUG 2016-12-06 16:03:14,507 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Happyzu.Mall.Web.MallWebModule, Happyzu.Mall.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-12-06 16:03:14,509 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=1.1.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-12-06 16:03:14,509 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=1.1.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-12-06 16:03:14,510 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=1.1.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-12-06 16:03:14,510 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=1.1.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-12-06 16:03:14,510 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Happyzu.Mall.MallDataModule, Happyzu.Mall.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-12-06 16:03:14,510 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=1.1.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-12-06 16:03:14,511 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Happyzu.Mall.MallCoreModule, Happyzu.Mall.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-12-06 16:03:14,511 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Happyzu.Mall.MallApplicationModule, Happyzu.Mall.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-12-06 16:03:14,512 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Happyzu.Mall.MallWebApiModule, Happyzu.Mall.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-12-06 16:03:14,512 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=1.1.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-12-06 16:03:14,512 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Happyzu.Mall.Web.Administrator.MallWebAdministratorModule, Happyzu.Mall.Web.Administrator, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-12-06 16:03:14,515 [1    ] Abp.Modules.AbpModuleManager             - 12 modules loaded.
+DEBUG 2016-12-06 16:03:14,865 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: Happyzu.Mall.EntityFramework.MallDbContext, Happyzu.Mall.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-12-06 16:03:18,113 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2016-12-06 16:03:18,120 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2016-12-06 16:03:18,127 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2016-12-06 16:03:18,129 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Mall
+DEBUG 2016-12-06 16:03:18,278 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+WARN  2016-12-06 16:03:20,157 [8    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2016-12-06 16:03:20,178 [8    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+DEBUG 2016-12-06 16:04:34,655 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2016-12-06 16:04:34,742 [1    ] Abp.Modules.AbpModuleManager             - Found 12 ABP modules in total.
+DEBUG 2016-12-06 16:04:34,746 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Happyzu.Mall.Web.MallWebModule, Happyzu.Mall.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-12-06 16:04:34,749 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=1.1.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-12-06 16:04:34,749 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=1.1.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-12-06 16:04:34,749 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=1.1.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-12-06 16:04:34,750 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=1.1.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-12-06 16:04:34,750 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Happyzu.Mall.MallDataModule, Happyzu.Mall.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-12-06 16:04:34,751 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=1.1.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-12-06 16:04:34,751 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Happyzu.Mall.MallCoreModule, Happyzu.Mall.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-12-06 16:04:34,751 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Happyzu.Mall.MallApplicationModule, Happyzu.Mall.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-12-06 16:04:34,752 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Happyzu.Mall.MallWebApiModule, Happyzu.Mall.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-12-06 16:04:34,752 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=1.1.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-12-06 16:04:34,752 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Happyzu.Mall.Web.Administrator.MallWebAdministratorModule, Happyzu.Mall.Web.Administrator, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-12-06 16:04:34,755 [1    ] Abp.Modules.AbpModuleManager             - 12 modules loaded.
+DEBUG 2016-12-06 16:04:35,109 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: Happyzu.Mall.EntityFramework.MallDbContext, Happyzu.Mall.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-12-06 16:05:06,311 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2016-12-06 16:05:06,332 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2016-12-06 16:05:06,332 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2016-12-06 16:05:06,334 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Mall
+DEBUG 2016-12-06 16:05:06,487 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+WARN  2016-12-06 16:05:08,321 [8    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2016-12-06 16:05:08,342 [8    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+DEBUG 2016-12-06 16:06:57,039 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2016-12-06 16:06:57,062 [1    ] Abp.Modules.AbpModuleManager             - Found 12 ABP modules in total.
+DEBUG 2016-12-06 16:06:57,067 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Happyzu.Mall.Web.MallWebModule, Happyzu.Mall.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-12-06 16:06:57,069 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=1.1.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-12-06 16:06:57,069 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=1.1.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-12-06 16:06:57,070 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=1.1.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-12-06 16:06:57,070 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=1.1.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-12-06 16:06:57,070 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Happyzu.Mall.MallDataModule, Happyzu.Mall.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-12-06 16:06:57,070 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=1.1.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-12-06 16:06:57,070 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Happyzu.Mall.MallCoreModule, Happyzu.Mall.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-12-06 16:06:57,070 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Happyzu.Mall.MallApplicationModule, Happyzu.Mall.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-12-06 16:06:57,070 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Happyzu.Mall.MallWebApiModule, Happyzu.Mall.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-12-06 16:06:57,071 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=1.1.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-12-06 16:06:57,071 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Happyzu.Mall.Web.Admin.MallWebAdministratorModule, Happyzu.Mall.Web.Administrator, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-12-06 16:06:57,074 [1    ] Abp.Modules.AbpModuleManager             - 12 modules loaded.
+DEBUG 2016-12-06 16:06:57,302 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: Happyzu.Mall.EntityFramework.MallDbContext, Happyzu.Mall.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-12-06 16:07:01,573 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2016-12-06 16:07:01,581 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2016-12-06 16:07:01,589 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2016-12-06 16:07:01,591 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Mall
+DEBUG 2016-12-06 16:07:01,730 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+WARN  2016-12-06 16:07:04,085 [8    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2016-12-06 16:07:04,106 [8    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+DEBUG 2016-12-06 16:08:09,095 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2016-12-06 16:08:09,182 [1    ] Abp.Modules.AbpModuleManager             - Found 12 ABP modules in total.
+DEBUG 2016-12-06 16:08:09,187 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Happyzu.Mall.Web.MallWebModule, Happyzu.Mall.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-12-06 16:08:09,189 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=1.1.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-12-06 16:08:09,189 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=1.1.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-12-06 16:08:09,189 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=1.1.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-12-06 16:08:09,189 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=1.1.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-12-06 16:08:09,189 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Happyzu.Mall.MallDataModule, Happyzu.Mall.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-12-06 16:08:09,189 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=1.1.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-12-06 16:08:09,190 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Happyzu.Mall.MallCoreModule, Happyzu.Mall.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-12-06 16:08:09,190 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Happyzu.Mall.MallApplicationModule, Happyzu.Mall.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-12-06 16:08:09,190 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Happyzu.Mall.MallWebApiModule, Happyzu.Mall.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-12-06 16:08:09,190 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=1.1.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-12-06 16:08:09,190 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Happyzu.Mall.Web.Admin.MallWebAdministratorModule, Happyzu.Mall.Web.Administrator, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-12-06 16:08:09,192 [1    ] Abp.Modules.AbpModuleManager             - 12 modules loaded.
+DEBUG 2016-12-06 16:08:09,535 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: Happyzu.Mall.EntityFramework.MallDbContext, Happyzu.Mall.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-12-06 16:08:09,665 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2016-12-06 16:08:09,673 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2016-12-06 16:08:09,681 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2016-12-06 16:08:09,683 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Mall
+DEBUG 2016-12-06 16:08:09,834 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+WARN  2016-12-06 16:08:11,661 [7    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2016-12-06 16:08:11,683 [7    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+DEBUG 2016-12-06 16:08:31,127 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2016-12-06 16:08:31,228 [1    ] Abp.Modules.AbpModuleManager             - Found 12 ABP modules in total.
+DEBUG 2016-12-06 16:08:31,233 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Happyzu.Mall.Web.MallWebModule, Happyzu.Mall.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-12-06 16:08:31,235 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=1.1.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-12-06 16:08:31,236 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=1.1.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-12-06 16:08:31,236 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=1.1.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-12-06 16:08:31,236 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=1.1.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-12-06 16:08:31,236 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Happyzu.Mall.MallDataModule, Happyzu.Mall.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-12-06 16:08:31,236 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=1.1.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-12-06 16:08:31,237 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Happyzu.Mall.MallCoreModule, Happyzu.Mall.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-12-06 16:08:31,237 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Happyzu.Mall.MallApplicationModule, Happyzu.Mall.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-12-06 16:08:31,237 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Happyzu.Mall.MallWebApiModule, Happyzu.Mall.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-12-06 16:08:31,237 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=1.1.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-12-06 16:08:31,237 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Happyzu.Mall.Web.Administrator.MallWebAdministratorModule, Happyzu.Mall.Web.Administrator, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-12-06 16:08:31,239 [1    ] Abp.Modules.AbpModuleManager             - 12 modules loaded.
+DEBUG 2016-12-06 16:08:31,583 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: Happyzu.Mall.EntityFramework.MallDbContext, Happyzu.Mall.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-12-06 16:08:31,719 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2016-12-06 16:08:31,726 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2016-12-06 16:08:31,733 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2016-12-06 16:08:31,735 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Mall
+DEBUG 2016-12-06 16:08:31,892 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+WARN  2016-12-06 16:08:33,771 [7    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2016-12-06 16:08:33,791 [7    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+DEBUG 2016-12-06 16:09:07,023 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2016-12-06 16:09:07,045 [1    ] Abp.Modules.AbpModuleManager             - Found 12 ABP modules in total.
+DEBUG 2016-12-06 16:09:07,049 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Happyzu.Mall.Web.MallWebModule, Happyzu.Mall.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-12-06 16:09:07,052 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=1.1.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-12-06 16:09:07,052 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=1.1.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-12-06 16:09:07,052 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=1.1.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-12-06 16:09:07,053 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=1.1.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-12-06 16:09:07,053 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Happyzu.Mall.MallDataModule, Happyzu.Mall.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-12-06 16:09:07,053 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=1.1.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-12-06 16:09:07,053 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Happyzu.Mall.MallCoreModule, Happyzu.Mall.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-12-06 16:09:07,053 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Happyzu.Mall.MallApplicationModule, Happyzu.Mall.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-12-06 16:09:07,054 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Happyzu.Mall.MallWebApiModule, Happyzu.Mall.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-12-06 16:09:07,054 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=1.1.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-12-06 16:09:07,054 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Happyzu.Mall.Web.Administrator.MallWebAdministratorModule, Happyzu.Mall.Web.Administrator, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-12-06 16:09:07,056 [1    ] Abp.Modules.AbpModuleManager             - 12 modules loaded.
+DEBUG 2016-12-06 16:09:07,286 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: Happyzu.Mall.EntityFramework.MallDbContext, Happyzu.Mall.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-12-06 16:09:07,886 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2016-12-06 16:09:07,925 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2016-12-06 16:09:07,926 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2016-12-06 16:09:07,927 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Mall
+DEBUG 2016-12-06 16:09:08,067 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+WARN  2016-12-06 16:09:10,373 [7    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2016-12-06 16:09:10,394 [7    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+DEBUG 2016-12-06 16:09:18,842 [6    ] Abp.Modules.AbpModuleManager             - Shutting down has been started
+DEBUG 2016-12-06 16:09:18,844 [6    ] Abp.BackgroundJobs.BackgroundJobManager  - Stop background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2016-12-06 16:09:18,845 [6    ] Abp.BackgroundJobs.BackgroundJobManager  - WaitToStop background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2016-12-06 16:09:18,845 [6    ] Abp.Modules.AbpModuleManager             - Shutting down completed.
+DEBUG 2016-12-06 16:09:43,676 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2016-12-06 16:09:43,695 [1    ] Abp.Modules.AbpModuleManager             - Found 12 ABP modules in total.
+DEBUG 2016-12-06 16:09:43,698 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Happyzu.Mall.Web.MallWebModule, Happyzu.Mall.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-12-06 16:09:43,700 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=1.1.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-12-06 16:09:43,700 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=1.1.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-12-06 16:09:43,700 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=1.1.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-12-06 16:09:43,700 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=1.1.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-12-06 16:09:43,700 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Happyzu.Mall.MallDataModule, Happyzu.Mall.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-12-06 16:09:43,701 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=1.1.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-12-06 16:09:43,701 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Happyzu.Mall.MallCoreModule, Happyzu.Mall.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-12-06 16:09:43,701 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Happyzu.Mall.MallApplicationModule, Happyzu.Mall.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-12-06 16:09:43,701 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Happyzu.Mall.MallWebApiModule, Happyzu.Mall.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-12-06 16:09:43,701 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=1.1.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-12-06 16:09:43,702 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Happyzu.Mall.Web.Administrator.MallWebAdministratorModule, Happyzu.Mall.Web.Administrator, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-12-06 16:09:43,704 [1    ] Abp.Modules.AbpModuleManager             - 12 modules loaded.
+DEBUG 2016-12-06 16:09:43,921 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: Happyzu.Mall.EntityFramework.MallDbContext, Happyzu.Mall.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-12-06 16:09:44,552 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2016-12-06 16:09:44,557 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2016-12-06 16:09:44,557 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2016-12-06 16:09:44,558 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Mall
+DEBUG 2016-12-06 16:09:44,685 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2016-12-06 16:10:50,149 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2016-12-06 16:10:50,294 [1    ] Abp.Modules.AbpModuleManager             - Found 12 ABP modules in total.
+DEBUG 2016-12-06 16:10:50,298 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Happyzu.Mall.Web.MallWebModule, Happyzu.Mall.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-12-06 16:10:50,300 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=1.1.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-12-06 16:10:50,300 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=1.1.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-12-06 16:10:50,300 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=1.1.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-12-06 16:10:50,300 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=1.1.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-12-06 16:10:50,301 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Happyzu.Mall.MallDataModule, Happyzu.Mall.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-12-06 16:10:50,301 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=1.1.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-12-06 16:10:50,301 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Happyzu.Mall.MallCoreModule, Happyzu.Mall.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-12-06 16:10:50,301 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Happyzu.Mall.MallApplicationModule, Happyzu.Mall.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-12-06 16:10:50,301 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Happyzu.Mall.MallWebApiModule, Happyzu.Mall.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-12-06 16:10:50,302 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=1.1.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-12-06 16:10:50,302 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Happyzu.Mall.Web.Administrator.MallWebAdministratorModule, Happyzu.Mall.Web.Administrator, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-12-06 16:10:50,304 [1    ] Abp.Modules.AbpModuleManager             - 12 modules loaded.
+DEBUG 2016-12-06 16:10:50,663 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: Happyzu.Mall.EntityFramework.MallDbContext, Happyzu.Mall.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-12-06 16:10:54,062 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2016-12-06 16:10:54,069 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2016-12-06 16:10:54,077 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2016-12-06 16:10:54,078 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Mall
+DEBUG 2016-12-06 16:10:54,231 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+WARN  2016-12-06 16:10:56,829 [8    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2016-12-06 16:10:56,862 [8    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+DEBUG 2016-12-06 16:19:45,573 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2016-12-06 16:19:45,716 [1    ] Abp.Modules.AbpModuleManager             - Found 12 ABP modules in total.
+DEBUG 2016-12-06 16:19:45,721 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Happyzu.Mall.Web.MallWebModule, Happyzu.Mall.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-12-06 16:19:45,722 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=1.1.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-12-06 16:19:45,723 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=1.1.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-12-06 16:19:45,723 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=1.1.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-12-06 16:19:45,723 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=1.1.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-12-06 16:19:45,723 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Happyzu.Mall.MallDataModule, Happyzu.Mall.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-12-06 16:19:45,724 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=1.1.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-12-06 16:19:45,724 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Happyzu.Mall.MallCoreModule, Happyzu.Mall.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-12-06 16:19:45,724 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Happyzu.Mall.MallApplicationModule, Happyzu.Mall.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-12-06 16:19:45,724 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Happyzu.Mall.MallWebApiModule, Happyzu.Mall.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-12-06 16:19:45,724 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=1.1.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-12-06 16:19:45,724 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Happyzu.Mall.Web.Administrator.MallWebAdministratorModule, Happyzu.Mall.Web.Administrator, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-12-06 16:19:45,727 [1    ] Abp.Modules.AbpModuleManager             - 12 modules loaded.
+DEBUG 2016-12-06 16:19:46,082 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: Happyzu.Mall.EntityFramework.MallDbContext, Happyzu.Mall.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-12-06 16:19:48,760 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2016-12-06 16:19:48,767 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2016-12-06 16:19:48,768 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2016-12-06 16:19:48,769 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Mall
+DEBUG 2016-12-06 16:19:48,931 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+WARN  2016-12-06 16:19:50,908 [8    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2016-12-06 16:19:50,930 [8    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
