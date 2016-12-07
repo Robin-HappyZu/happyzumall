@@ -1175,6 +1175,10 @@
     <Folder Include="Plugins\" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Happyzu.Framework\Happyzu.Framework.csproj">
+      <Project>{612823c9-8446-4333-b0c7-717a5546b51f}</Project>
+      <Name>Happyzu.Framework</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Happyzu.Mall.Application\Happyzu.Mall.Application.csproj">
       <Project>{edf5d964-4c0f-4f19-b674-58a38a5e5401}</Project>
       <Name>Happyzu.Mall.Application</Name>

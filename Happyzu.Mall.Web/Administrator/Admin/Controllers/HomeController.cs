@@ -1,6 +1,6 @@
 ﻿using System.Web.Mvc;
 
-namespace Happyzu.Mall.Web.Administrator.Controllers
+namespace Happyzu.Mall.Web.Admin.Controllers
 {
     public class HomeController : MallAdminControllerBase
     {

@@ -1,6 +1,6 @@
 ﻿using Abp.Web.Mvc.Controllers;
 
-namespace Happyzu.Mall.Web.Administrator.Controllers
+namespace Happyzu.Mall.Web.Admin.Controllers
 {
     public abstract class MallAdminControllerBase : AbpController
     {

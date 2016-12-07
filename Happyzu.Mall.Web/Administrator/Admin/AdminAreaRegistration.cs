@@ -1,12 +1,12 @@
 ﻿using System.Web.Mvc;
 
-namespace Happyzu.Mall.Web.Administrator
+namespace Happyzu.Mall.Web.Admin
 {
-    public class AreaRegistration : System.Web.Mvc.AreaRegistration
+    public class AdminAreaRegistration : AreaRegistration
     {
         public override string AreaName
         {
-            get { return "Administrator"; }
+            get { return "admin"; }
         }
 
         public override void RegisterArea(AreaRegistrationContext context)
@@ -14,8 +14,8 @@ namespace Happyzu.Mall.Web.Administrator
             //此路由不能删除
             context.MapRoute("admin_default",
                               "admin/{controller}/{action}",
-                              new { controller = "home", action = "index", area = "Administrator" },
-                              new[] { "Happyzu.Mall.Web.Administrator.Controllers" });
+                              new { controller = "home", action = "index", area = "admin" },
+                              new[] { "Happyzu.Mall.Web.Admin.Controllers" });
         }
 
     }
