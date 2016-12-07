@@ -240,3 +240,5 @@ ModelManifest.xml
 
 # FAKE - F# Make
 .fake/
+/Happyzu.Mall.Web/Plugins/dll
+/Happyzu.Mall.Web/App_Data/Logs

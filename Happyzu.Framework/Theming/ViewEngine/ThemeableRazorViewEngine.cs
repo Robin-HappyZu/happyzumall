@@ -15,22 +15,34 @@ namespace Happyzu.Framework.Theming.ViewEngine
             {
                 "$ThemeDirectory/$Theme/{2}/Views/{1}/{0}.cshtml",
                 "$ThemeDirectory/$Theme/{2}/Views/Shared/{0}.cshtml",
+                "$ThemeDirectory/$Theme/Plugins/{2}/Views/{1}/{0}.cshtml",
+                "$ThemeDirectory/$Theme/Plugins/{2}/Views/Shared/{0}.cshtml",
                 "~/Areas/{2}/Views/{1}/{0}.cshtml",
                 "~/Areas/{2}/Views/Shared/{0}.cshtml",
+                "~/Plugins/{2}/Views/{1}/{0}.cshtml",
+                "~/Plugins/{2}/Views/Shared/{0}.cshtml",
             };
             AreaMasterLocationFormats = new[]
             {
                 "$ThemeDirectory/$Theme/{2}/Views/{1}/{0}.cshtml",
                 "$ThemeDirectory/$Theme/{2}/Views/Shared/{0}.cshtml",
+                "$ThemeDirectory/$Theme/Plugins/{2}/Views/{1}/{0}.cshtml",
+                "$ThemeDirectory/$Theme/Plugins/{2}/Views/Shared/{0}.cshtml",
                 "~/Areas/{2}/Views/{1}/{0}.cshtml",
                 "~/Areas/{2}/Views/Shared/{0}.cshtml",
+                "~/Plugins/{2}/Views/{1}/{0}.cshtml",
+                "~/Plugins/{2}/Views/Shared/{0}.cshtml",
             };
             AreaPartialViewLocationFormats = new[]
             {
                 "$ThemeDirectory/$Theme/{2}/Views/{1}/{0}.cshtml",
                 "$ThemeDirectory/$Theme/{2}/Views/Shared/{0}.cshtml",
+                "$ThemeDirectory/$Theme/Plugins/{2}/Views/{1}/{0}.cshtml",
+                "$ThemeDirectory/$Theme/Plugins/{2}/Views/Shared/{0}.cshtml",
                 "~/Areas/{2}/Views/{1}/{0}.cshtml",
                 "~/Areas/{2}/Views/Shared/{0}.cshtml",
+                "~/Plugins/{2}/Views/{1}/{0}.cshtml",
+                "~/Plugins/{2}/Views/Shared/{0}.cshtml",
             };
 
             ViewLocationFormats = new[]

@@ -36,7 +36,7 @@ namespace Happyzu.Mall.Web
         public static void Start()
         {
             //...
-            MvcApplication.AbpBootstrapper.PlugInSources.AddFolder(string.Concat(HttpRuntime.AppDomainAppPath,"\\Plugins"));
+            MvcApplication.AbpBootstrapper.PlugInSources.AddFolder(string.Concat(HttpRuntime.AppDomainAppPath,"\\Plugins\\dll"));
             MvcApplication.AbpBootstrapper.PlugInSources.AddToBuildManager();
         }
     }

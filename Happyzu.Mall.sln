@@ -30,6 +30,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Happyzu.Mall.Web.Administra
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Happyzu.Framework", "Happyzu.Framework\Happyzu.Framework.csproj", "{612823C9-8446-4333-B0C7-717A5546B51F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Happyzu.Mall.Web.Wechat", "Happyzu.Mall.Web\Plugins\Happyzu.Mall.Web.Wechat\Happyzu.Mall.Web.Wechat.csproj", "{97B6E4CA-E332-4BB8-BF9C-32F4AD31ED77}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -64,6 +66,10 @@ Global
 		{612823C9-8446-4333-B0C7-717A5546B51F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{612823C9-8446-4333-B0C7-717A5546B51F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{612823C9-8446-4333-B0C7-717A5546B51F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97B6E4CA-E332-4BB8-BF9C-32F4AD31ED77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97B6E4CA-E332-4BB8-BF9C-32F4AD31ED77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97B6E4CA-E332-4BB8-BF9C-32F4AD31ED77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97B6E4CA-E332-4BB8-BF9C-32F4AD31ED77}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -76,5 +82,6 @@ Global
 		{5EB52D3D-09FD-463A-B02A-8D9856BD3724} = {2702B9BF-131B-4B64-861C-7B8D2EA01046}
 		{317244F7-FC06-4866-AB8D-023FEC500216} = {787725DB-CEEC-4F24-B637-A4F9D18857A1}
 		{612823C9-8446-4333-B0C7-717A5546B51F} = {2702B9BF-131B-4B64-861C-7B8D2EA01046}
+		{97B6E4CA-E332-4BB8-BF9C-32F4AD31ED77} = {787725DB-CEEC-4F24-B637-A4F9D18857A1}
 	EndGlobalSection
 EndGlobal
