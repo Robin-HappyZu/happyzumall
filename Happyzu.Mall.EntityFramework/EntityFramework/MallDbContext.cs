@@ -1,5 +1,6 @@
 ﻿using System.Data.Entity;
 using Abp.EntityFramework;
+using Happyzu.Mall.Configuration;
 using Happyzu.Mall.Users;
 
 namespace Happyzu.Mall.EntityFramework
@@ -10,7 +11,15 @@ namespace Happyzu.Mall.EntityFramework
 
         //Example:
         //public virtual IDbSet<User> Users { get; set; }
-        
+
+        #region 系统
+        /// <summary>
+        /// 配置
+        /// </summary>    
+        public virtual IDbSet<Setting> Setting { get; set; }
+
+        #endregion
+
 
 
         /* NOTE: 

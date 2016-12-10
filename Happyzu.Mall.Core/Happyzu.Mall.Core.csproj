@@ -86,6 +86,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Configuration\Setting.cs" />
+    <Compile Include="Configuration\SettingExtensions.cs" />
+    <Compile Include="Configuration\SettingStore.cs" />
     <Compile Include="MallConsts.cs" />
     <Compile Include="MallCoreModule.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

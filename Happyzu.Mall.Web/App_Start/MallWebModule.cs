@@ -7,6 +7,7 @@ using Abp.Localization;
 using Abp.Localization.Dictionaries;
 using Abp.Localization.Dictionaries.Xml;
 using Abp.Modules;
+using Abp.Runtime.Caching.Redis;
 using Abp.Web.Mvc;
 
 namespace Happyzu.Mall.Web
@@ -15,11 +16,17 @@ namespace Happyzu.Mall.Web
         typeof(AbpWebMvcModule),
         typeof(MallDataModule), 
         typeof(MallApplicationModule), 
-        typeof(MallWebApiModule))]
+        typeof(MallWebApiModule),
+        typeof(AbpRedisCacheModule))]
     public class MallWebModule : AbpModule
     {
         public override void PreInitialize()
         {
+            Configuration.Caching.UseRedis(options =>
+            {
+                options.UseProtoBuf();
+            });
+
             //Add/remove languages for your application
             Configuration.Localization.Languages.Add(new LanguageInfo("en", "English", "famfamfam-flag-england", true));
             Configuration.Localization.Languages.Add(new LanguageInfo("tr", "Türkçe", "famfamfam-flag-tr"));
