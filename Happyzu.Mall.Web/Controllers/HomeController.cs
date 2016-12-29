@@ -15,6 +15,7 @@ namespace Happyzu.Mall.Web.Controllers
 
         public ActionResult Index()
         {
+            _settingManager.GetAllSettingValues();
             return View("~/App/Main/views/layout/layout.cshtml"); //Layout of the angular application.
         }
 	}

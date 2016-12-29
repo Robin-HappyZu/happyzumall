@@ -120,6 +120,10 @@
     <Compile Include="Migrations\201612101346137_Create_Setting_Entity.Designer.cs">
       <DependentUpon>201612101346137_Create_Setting_Entity.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201612290644556_Add_AuditLog_Entity.cs" />
+    <Compile Include="Migrations\201612290644556_Add_AuditLog_Entity.Designer.cs">
+      <DependentUpon>201612290644556_Add_AuditLog_Entity.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="MallDataModule.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -137,6 +141,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201612101346137_Create_Setting_Entity.resx">
       <DependentUpon>201612101346137_Create_Setting_Entity.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201612290644556_Add_AuditLog_Entity.resx">
+      <DependentUpon>201612290644556_Add_AuditLog_Entity.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

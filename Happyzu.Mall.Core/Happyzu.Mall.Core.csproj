@@ -86,6 +86,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Auditing\AuditingStore.cs" />
+    <Compile Include="Auditing\AuditLog.cs" />
     <Compile Include="Configuration\Setting.cs" />
     <Compile Include="Configuration\SettingExtensions.cs" />
     <Compile Include="Configuration\SettingStore.cs" />

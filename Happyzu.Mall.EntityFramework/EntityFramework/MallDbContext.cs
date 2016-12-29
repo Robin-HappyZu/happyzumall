@@ -1,5 +1,6 @@
 ﻿using System.Data.Entity;
 using Abp.EntityFramework;
+using Happyzu.Mall.Auditing;
 using Happyzu.Mall.Configuration;
 using Happyzu.Mall.Users;
 
@@ -13,6 +14,11 @@ namespace Happyzu.Mall.EntityFramework
         //public virtual IDbSet<User> Users { get; set; }
 
         #region 系统
+        /// <summary>
+        /// Audit logs.
+        /// </summary>
+        public virtual DbSet<AuditLog> AuditLogs { get; set; }
+
         /// <summary>
         /// 配置
         /// </summary>    
@@ -41,6 +47,12 @@ namespace Happyzu.Mall.EntityFramework
             : base(nameOrConnectionString)
         {
 
+        }
+
+        protected override void OnModelCreating(DbModelBuilder modelBuilder)
+        {
+            base.OnModelCreating(modelBuilder);
+            
         }
     }
 }
